@@ -402,7 +402,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about{
-  height: 700px;
+  height: 900px;
 }
 .about .content h3 {
   font-weight: 700;
@@ -1272,4 +1272,20 @@ p {
     margin: 4px 10px;
  }
 
- 
+ @media (max-width: 600px) and (max-height: 750px) {
+  .qr img{
+      display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .qr img{
+    display: none;
+}
+}
+
+@media (max-width: 767px) { 
+  .qr img{
+    display: none;
+}
+}
